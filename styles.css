@@ -1,0 +1,193 @@
+/* general / overall body */
+body {
+  font-family: proxima-nova,Helvetica,Roboto,Arial,sans-serif;
+  font-weight: 300;
+  background: whitesmoke;
+  margin: 0;
+}
+
+/* sticky header */
+#header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #043B4B;
+  z-index: 99;
+}
+
+/* galvanize logo in upper left of header */
+.header-logo {
+  padding-left: 10px;
+  padding-top: 12px;
+}
+
+.RSVP {
+  width: 2.5em;
+  height: auto;
+  float: right;
+  padding-right: 15px;
+  padding-top: 3px;
+}
+
+/* CARD STUFF */
+
+/* Meet the Students in upper left of body */
+.meetTheStudents {
+  font-size: 1.3em;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  /* color: #043B4B; */
+  color: black;
+  margin: 0;
+}
+
+/* pics on each card */
+.headshot {
+  overflow: hidden;
+  border-top: 20px solid white;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+}
+
+/* link to expand card for capstone info */
+span i {
+  font-size: 0.6em;
+  /* color: #3CB7C2; */
+  color: black;
+  padding-right: 1em;
+  padding-top: 3em;
+}
+
+/* github, linkedin, email icons on each card */
+#contactIcons {
+  width: 1.5em;
+  opacity: 0.85;
+}
+
+/* names on each card */
+.card .card-title {
+  font-size: 1.2em;
+  color: black;
+}
+
+/* names and links section on each card */
+.card .card-content {
+  padding: 7px;
+  padding-left: 20px;
+  border-radius: 0 0 0px 0px;
+}
+
+/* about the event, galvanize web dev capstone showcase, new york - west soho, RSVP,  */
+.title {
+  font-size: 1.7em;
+}
+
+/* below the fold, info about the event */
+
+.happyHourDiv {
+  margin: 0;
+}
+
+.eventInfo {
+  border: 1px solid #D7D7D7;
+  background-color: #fff;
+  text-align: left;
+}
+
+li {
+  list-style: circle;
+}
+
+.joinUs {
+  font-size: 1.25em;
+}
+
+/* new york - west soho */
+.newYorkWestSoHo {
+  font-size: 2em;
+}
+
+/* galvanize nyc logo */
+.galvanize-nyc-logo {
+  height: 110px;
+  width: auto;
+}
+
+/* bottles image */
+.happyHourImg {
+  width: 100%;
+  margin: 0;
+  padding: none;
+}
+
+/* footer stuff */
+#footer {
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #043B4B;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  /* z-index: 99; */
+}
+
+/* galvanize "G" */
+.footerImg {
+  width: 85px;
+  height: auto;
+  float: left;
+}
+
+/* about, FAQ, and press links in footer */
+.footerLink {
+  text-decoration: none;
+  color: #C6BFB7;
+  text-align: center;
+}
+/* hire our talent link */
+.hire {
+  text-decoration: none;
+  color: #F58B41;
+  text-align: right;
+}
+
+/* galvanize social media contact icons */
+.icons {
+  float: right;
+  color: #C6BFB7;
+}
+
+#iconTwitter {
+  width: 30px;
+  height: auto;
+}
+
+#iconLinkedIn {
+  width: 30px;
+  height: auto;
+}
+
+#iconFacebook {
+  width: 30px;
+  height: auto;
+}
+
+#iconInstagram {
+  width: 30px;
+  height: auto;
+}
+
+#iconGooglePlus {
+  width: 30px;
+  height: auto;
+}
+
+#iconYouTube {
+  width: 30px;
+  height: auto;
+}
